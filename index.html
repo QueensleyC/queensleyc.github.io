@@ -1,216 +1,506 @@
 <!DOCTYPE HTML>
 <!--
-	Hyperspace by HTML5 UP
+	Dopetrope by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Queensley Chinedu</title>
+		<title>Dopetrope by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">What I do</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<img src="images/profile.jpg" height="150px" width="150px" alt="" />
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Projects Dropdown</a>
+									<ul>
+										<li><a href="#data-visualisation">Data Visualisation</a></li>
+										<li><a href="#model-building">Model Building</a></li>
+										<li><a href="#python-scripting">Python Scripting</a></li>
+										<li><a href="#statistical-analysis">Statistical Analysis</a></li>
+										<li><a href="#sql">Structured Query Language (SQL)</a></li>
+										<!-- <li>
+											<a href="#">Phasellus consequat</a>
+											<ul>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+												<li><a href="#">Veroeros feugiat</a></li>
+												<li><a href="#">Nisl sed aliquam</a></li>
+												<li><a href="#">Dolore adipiscing</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Veroeros feugiat</a></li> -->
+									</ul>
+								</li>
+								<!-- <li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>-->
+								<li><a href="no-sidebar.html">About Me</a></li> 
+							</ul>
+						</nav>
+
+					<!-- Banner -->
+						<section id="banner">
+							<header>
+								<h2>Queensley Chinedu</h2>
+								<p>Data Scientist | Machine Learning | Building Predictive Models & Driving Business Insights</p>
+							</header>
+						</section>
+
+					<!-- Intro -->
+						<section id="intro" class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<section class="first">
+										<i class="icon solid featured alt fa-bolt"></i>
+										<header>
+											<h2>Python Scripting</h2>
+										</header>
+										<p>I specialize in Python scripting for data manipulation, automation, and analysis, 
+											using its powerful libraries to efficiently process large datasets and extract insights,
+											 enabling data-driven decision-making and enhancing productivity through custom solutions and streamlined workflows.
+										</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="middle">
+										<i class="icon solid featured fa-cog"></i>
+										<header>
+											<h2>Model Building</h2>
+										</header>
+										<p>I excel in building predictive models using advanced machine learning algorithms and 
+											 statistical techniques to address complex business challenges, 
+											 focusing on model optimization and validation to ensure robustness and accuracy 
+											 for actionable insights and informed decision-making.
+										</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="last">
+										<i class="icon solid featured alt2 fa-star"></i>
+										<header>
+											<h2>Statistical Analysis</h2>
+										</header>
+										<p>I possess advanced skills in statistical analysis, adeptly utilizing techniques like hypothesis testing, 
+											A/B testing, and Analysis of Variance (ANOVA) to extract meaningful insights from diverse datasets, 
+											ensuring accurate interpretation and effective communication of findings.</p>
+									</section>
+								</div>
+							</div>
+							<footer>
+								<ul class="actions">
+									<li><a href="#main" class="button large">My Projects</a></li>
+									<li><a href="no-sidebar.html" class="button alt large">About Me</a></li>
+								</ul>
+							</footer>
+						</section>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+
+							<!-- Data Visualisation -->
+							<div class="col-12">
+
+									<section id="data-visualisation">
+										<header class="major">
+											<h2>Data Analysis and Visualisation</h2>
+										</header>
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/immigration-data-vis" target="_blank" class="image featured"><img src="images/immigration.png" alt="" /></a>
+													<header>
+														<h3>Data Visualisation of Immigration into Selected EU Countries</h3>
+													</header>
+													<p>This project makes use of pandas dataframes and the library of Matplotlib. 
+														It focuses on plot types such as line plots, bar plots, area plots, 
+														and histograms to extract meaningful insights from the dataset under investigation.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/immigration-data-vis" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/uk-election-geospatial-analysis" target="_blank" class="image featured"><img src="images/spatial-analysis.png" alt="" /></a>
+													<header>
+														<h3>Geospatial Analysis of the 2015 UK Election Result </h3>
+													</header>
+													<p>This project involves analyzing a diverse geospatial dataset with vectors, rasters, .shp, and .tif files,
+														 focusing on customizing geographical data and overlaying features for detailed analysis, 
+														 while also exporting plots to improve presentation of findings.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/uk-election-geospatial-analysis" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/netflix-data-analysis" target="_blank" class="image featured"><img src="images/netflix-viz.png" alt="" /></a>
+													<header>
+														<h3>Netflix Data Analysis</h3>
+													</header>
+													<p>A friend and I were discussing Netflix movies, and he mentioned that modern movies seem shorter than classics. 
+														Intrigued, I decided to analyze Netflix data through Exploratory Data Analysis (EDA) to investigate movie lengths. 
+														I aimed to determine if there's truth to the notion of "movies getting shorter" and identify potential reasons behind this trend.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/netflix-data-analysis"  target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+					
+											
+										</div>
+									</section>
+
+							</div>
+
+							<!-- Model Building -->
+							<div class="col-12">
+
+									<section id="model-building">
+										<header class="major">
+											<h2>Model Building</h2>
+										</header>
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/credit-card-classification" target="_blank" class="image featured"><img src="images/cc-classification.jpg" alt="" /></a>
+													<header>
+														<h3>Credit Card Application Classification</h3>
+													</header>
+													<p>I developed a credit card application approval system using UCI's dataset. 
+														Utilizing logistic regression, I conducted hyperparameter tuning and grid 
+														search to optimize the model for binary classification.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/credit-card-classification" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/GridSearchCV" target="_blank" class="image featured"><img src="images/gridsearch.jpg" alt="" /></a>
+													<header>
+														<h3>GridSearchCV with Random Forest and Gradient Boosting</h3>
+													</header>
+													<p>This project aims to solve a classification problem using machine learning techniques, specifically GridSearchCV with Gradient Boosting and Random Forest Classifier.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/GridSearchCV" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<!-- <div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" target="_blank" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+													<header>
+														<h3>Multi-Class Multi-Label Classification with Logistic Regression and NLP</h3>
+													</header>
+													<p>
+														</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div> -->
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/ts-xgb" target="_blank" class="image featured"><img src="images/ts-xgb.png" alt="" /></a>
+													<header>
+														<h3>Time Series Forecasting with XGBoost</h3>
+													</header>
+													<p>
+														In this project, I employed XGBoost to forecast energy consumption using a subset of data. By analyzing feature importances, I refined the model, prioritizing the most significant features. This iterative approach enhanced prediction accuracy, offering insights crucial for optimizing energy management strategies in real-world applications.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/ts-xgb" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+					
+											
+										</div>
+									</section>
+
+							</div>
+
+							<!-- Python Scripting -->
+							<div class="col-12">
+									<section id="python-scripting">
+										<header class="major">
+											<h2>Python Scripting</h2>
+										</header>
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/garch-model" target="_blank" class="image featured"><img src="images/api-db.png" alt="" /></a>
+													<header>
+														<h3>API Integration and Database Storage</h3>
+													</header>
+													<p>This project is designed to demonstrate the integration of external API calls, 
+														local database storage, and efficient data retrieval. The primary components 
+														include a class responsible for making API calls to fetch data from the 
+														internet and an SQL class for storing and retrieving this data in a local database.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/garch-model" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/my-udacity-python-project" target="_blank" class="image featured"><img src="images/bikeshare.jpg" alt="" /></a>
+													<header>
+														<h3>US Bikeshare Scripting</h3>
+													</header>
+													<p>This project involves exploring and analyzing a CSV dataset on bike sharing 
+														from three different cities in the United States using Python. 
+														The analysis is conducted based on user inputs, creating an interactive experience for the audience.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/my-udacity-python-project" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/register-user-script" target="_blank" class="image featured"><img src="images/register-app.jpg" alt="" /></a>
+													<header>
+														<h3>Register App Users with Functions</h3>
+													</header>
+													<p>In this project, I utilized helper functions to facilitate user registration and implement robust error handling. 
+														Throughout the project, I focused on defining functions with descriptive docstrings, 
+														leveraging self-created Python modules for modular code organization, 
+														and implementing effective error handling strategies to ensure smooth execution and graceful handling of unexpected scenarios.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/register-user-script" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://github.com/QueensleyC/advanced-python-concepts" target="_blank" class="image featured"><img src="images/advanced-python.png" alt="" /></a>
+													<header>
+														<h3>Advanced Python Concepts</h3>
+													</header>
+													<p>Python has a few advanced concepts that come in handy when developing code that is robust, 
+														crisp, highly optimized, efficient, and normalized. This project showcases my expertise in using these concepts to increase efficiency.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="https://github.com/QueensleyC/advanced-python-concepts" target="_blank" class="button alt">View Project</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											
+										</div>
+									</section>
+
+							</div>
+
+							<!-- Statistical Analysis -->
+							<div class="col-12">
+								<section id="statistical-analysis">
+									<header class="major">
+										<h2>Statistical Analysis</h2>
+									</header>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box">
+												<a href="https://github.com/QueensleyC/weather-hypothesis-testing" target="_blank" class="image featured"><img src="images/weather-images.jpg" alt="" /></a>
+												<header>
+													<h3>Unveiling the Weather Web: Are Humidity, Temperature, and Windspeed Entangled?</h3>
+												</header>
+												<p>Does the weather play a game of connect-the-dots? This analysis delves into a weather dataset to explore potential relationships between humidity,
+													 temperature, and windspeed, to determine if these weather elements exhibit statistically significant correlations.</p>
+												<footer>
+													<ul class="actions">
+														<li><a href="https://github.com/QueensleyC/weather-hypothesis-testing" target="_blank" class="button alt">View Project</a></li>
+													</ul>
+												</footer>
+											</section>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box">
+												<a href="https://github.com/QueensleyC/soccer-hypothesis-testing" target="_blank" class="image featured"><img src="images/soccer-image.jpg" alt="" /></a>
+												<header>
+													<h3>A Statistical Look at Goals in Football</h3>
+												</header>
+												<p>This analysis tackles the question: Do women's international soccer matches see more goals than men's?
+													Using a 10% significance level, I dug into the data to see if there's evidence to support this question.</p>
+												<footer>
+													<ul class="actions">
+														<li><a href="https://github.com/QueensleyC/soccer-hypothesis-testing" target="_blank" class="button alt">View Project</a></li>
+													</ul>
+												</footer>
+											</section>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<section class="box">
+												<a href="https://github.com/QueensleyC/pharmaceutical-drugs-hypothesis-testing" target="_blank" class="image featured"><img src="images/drugs_image.jpg" alt="" /></a>
+												<header>
+													<h3>Side Effects: Analyzing Adverse Drug Reactions in a Pharmaceutical Dataset</h3>
+												</header>
+												<p>Side effects are a common concern with medications. Using data from Hbiostat (link to data in project),
+													 I employed statistical methods to evaluate the reported adverse reactions and determine if they are statistically significant or simply infrequent occurrences.</p>
+												<footer>
+													<ul class="actions">
+														<li><a href="https://github.com/QueensleyC/pharmaceutical-drugs-hypothesis-testing" target="_blank" class="button alt">View Project</a></li>
+													</ul>
+												</footer>
+											</section>
+										</div>
+				
+										
+									</div>
+								</section>
+
+						</div>
+
+
+						<!-- Structure Query Language (SQL) -->
+						<div class="col-12">
+							<section id="sql">
+								<header class="major">
+									<h2>Structure Query Language (SQL)</h2>
+								</header>
+								<div class="row">
+									<div class="col-4 col-6-medium col-12-small">
+										<section class="box">
+											<a href="https://github.com/QueensleyC/SQL-Project" target="_blank" class="image featured"><img src="images/dvd-rental.png" alt="" /></a>
+											<header>
+												<h3>Exploring a DVD dataset</h3>
+											</header>
+											<p>In this project, I utilised JOINs and AGGREGATIONs, combined with subqueries/CTEs 
+												and windows functions to query the data in the DVD rental database.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://github.com/QueensleyC/SQL-Project" target="_blank" class="button alt">View Project</a></li>
+												</ul>
+											</footer>
+										</section>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<section class="box">
+											<a href="https://github.com/QueensleyC/postgresql/tree/main/country%20club" target="_blank" class="image featured"><img src="images/country-club-sql.jpg" alt="" /></a>
+											<header>
+												<h3>Exploring a Country Club Dataset</h3>
+											</header>
+											<p>This dataset presented a valuable opportunity for me to explore the capabilities of PostgreSQL beyond basic queries. 
+												I delved into more complex functionalities like window functions, CTEs, Views, etc. This exploration helped me gain a deeper understanding of various concepts.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://github.com/QueensleyC/postgresql/tree/main/country%20club" target="_blank" class="button alt">View Project</a></li>
+												</ul>
+											</footer>
+										</section>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<section class="box">
+											<a href="https://github.com/QueensleyC/postgresql/blob/main/country%20club/String%20Operations.pgsql" target="_blank" class="image featured"><img src="images/pgsql-strings.jpeg" alt="" /></a>
+											<header>
+												<h3>String Operations in PostgreSQL</h3>
+											</header>
+											<p>This SQL project focuses on various string manipulation tasks within a database. 
+												It demonstrates my proficiency in string functions and pattern matching in PostgreSQL, 
+												providing insights into data processing and cleansing techniques within a relational database environment.</p>
+											<footer>
+												<ul class="actions">
+													<li><a href="https://github.com/QueensleyC/postgresql/blob/main/country%20club/String%20Operations.pgsql" target="_blank" class="button alt">View Project</a></li>
+												</ul>
+											</footer>
+										</section>
+									</div>
+			
+									
+								</div>
+							</section>
+
+					</div>
+							
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="center">
+						
+						<div class="col-4 col-12-medium">
+							<section>
+								<header>
+									<h2>Social</h2>
+								</header>
+								<ul class="social">
+									<li><a href="https://github.com/QueensleyC"  target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/queensley-chinedu-b6a276224/"  target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+								<ul class="contact">
+									
+									<li>
+										<h3>E-mail</h3>
+										<span>ebyqueensley1@gmail.com</span>
+									</li>
+									<li>
+										<h3>Phone</h3>
+										<span>+234 (0) 906 197 6687</span>
+									</li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-12">
+
+							<!-- Copyright # Comment this out -->
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; Untitled. All rights reserved.</li><li>Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
 				</div>
 			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Queensley Chinedu</h1>
-							<p>
-								As a seasoned data scientist proficient in Python and statistical analysis, I bring a wealth of expertise in leveraging data-driven insights to solve complex problems. 
-								With a deep understanding of statistical methods and advanced programming skills, I specialize in extracting actionable insights from data to drive informed decision-making. 
-								My portfolio showcases a diverse range of projects where I've applied Python programming and statistical techniques to analyze data, 
-								build predictive models, and develop innovative solutions that deliver tangible value across various industries.
-							</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">My Projects</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/spatial-analysis.png" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Geospatial Analysis of the 2015 UK Election Result</h2>
-									<p>This project entails a thorough investigation and analysis of an extensive dataset encompassing geospatial information,
-										 including vectors, rasters, .shp files, and .tif files. I delved into advanced customization of geographical data, focusing on labels, color maps, resizing/repositioning legends, and adjusting extent/scale.
-										  Additionally, I explore overlaying geographical features to facilitate more intricate analysis. Lastly, the project encompasses the process of exporting plots to further enhance the presentation of findings.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/QueensleyC/geo-data" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/immigration.png" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Data Visualisation of Immigration into Selected EU Countries</h2>
-									<p>This project, utilizing pandas dataframes and the Matplotlib library, showcases my Python visualization expertise. It focuses on plot types such as line plots, bar plots, area plots, and histograms to extract meaningful insights from the dataset under investigation.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/QueensleyC/data-vis-python" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/gridsearch.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>GridSearchCV for Classification Problem</h2>
-									<p>This project aims to solve a classification problem using machine learning techniques, specifically GridSearchCV with Gradient Boosting and Random Forest Classifier.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/QueensleyC/GridSearchCV" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/SHG.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Splendor Hotel Group (SHG) Hospitality Analysis</h2>
-									<p> This project involves a detailed exploration and analysis of a comprehensive dataset containing information about bookings, 
-										guest demographics, distribution channels, and financial metrics within the context of SHG's hospitality services. 
-										The goal is to leverage analytical techniques to extract meaningful insights that will drive operational improvements 
-										and contribute to the overall success of SHG in delivering unparalleled hospitality.
-									</p>
-									<ul class="actions">
-										<li><a href="https://github.com/QueensleyC/SHG-Analysis" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/api-db.png" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>API Integration and Database Storage</h2>
-									<p>This project is designed to demonstrate the integration of external API calls, 
-										local database storage, and efficient data retrieval. 
-										The primary components include a class responsible for making API calls to fetch data from the internet and an SQL class for storing and retrieving this data in a local database.
-									</p>
-									<ul class="actions">
-										<li><a href="https://github.com/QueensleyC/web-data-fetcher-sql-storage" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What I do</h2>
-							<p>In my role, I specialize in Python scripting for data manipulation and statistical analysis, 
-								empowering data-driven decision-making processes. 
-								Additionally, I excel in building and deploying predictive models, ensuring effective utilization of machine learning algorithms to drive business success.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Python Scripting</h3>
-									<p>I specialize in Python scripting for data manipulation, automation, and analysis, leveraging the language's powerful libraries to efficiently process and extract insights from large datasets. My expertise in Python enables me to create custom solutions and streamline workflows, ensuring data-driven decision-making and enhancing productivity</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Statistical Analysis</h3>
-									<p>I possess advanced skills in statistical analysis, proficiently employing various techniques such as hypothesis testing, regression analysis, and exploratory data analysis to extract meaningful insights from diverse datasets. With a keen eye for detail and a deep understanding of statistical principles, I ensure accurate interpretation and effective communication of analytical findings to drive informed decision-making.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Model Building</h3>
-									<p>I specialize in model building, utilizing advanced machine learning algorithms and statistical techniques to develop predictive models that effectively address complex business challenges. With a focus on model optimization and validation, I ensure the robustness and accuracy of the models, enabling actionable insights and informed decision-making.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Conversion of Models to User-Friendly UIs</h3>
-									<p>I specialize in converting machine learning models into user-friendly interfaces, enabling seamless interaction and intuitive usage for end-users. By incorporating user interface design principles and leveraging web or application development frameworks, I transform complex models into accessible tools that facilitate informed decision-making across diverse user bases.</p>
-								</section>
-								<!-- <section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section> -->
-								
-							<!-- </div>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul> -->
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Ready to collaborate or have questions about my work? Feel free to reach out to me via email or phone, and let's discuss how I can help you achieve your data science goals. You can also connect with me on social media to stay updated on my latest projects and insights.</p>
-							<div class="split style1">
-								<section>
-									<ul class="contact">
-										
-										<li>
-											<h3>Email</h3>
-											<span>ebyqueensley1@gmail.com</span>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>+234 (0) 906 197 6687</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/QueensleyC"  target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/queensley-chinedu-b6a276224/"  target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
